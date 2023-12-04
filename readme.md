@@ -7,7 +7,8 @@ With the fast-paced development of multimodal large language models (MLLMs), we 
 </div>
 </p>
 <p>
-  <p align="center"><img src="./assets/lenna.png" alt="teaser" width="600px" />Lenna Architecture</p>
+  <p align="center"><img src="./assets/lenna.png" alt="teaser" width="600px" /></p>
+  <p align="center">Lenna Architecture</p>
 </p>
 
 ## Acknowledgement
