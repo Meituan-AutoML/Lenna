@@ -13,7 +13,7 @@ With the fast-paced development of multimodal large language models (MLLMs), we 
 
 ## Getting Started
 **1. Installation**
-- We utilize A100 GPU for training and inference.
+
 - Git clone our repository and creating conda environment:
   ```bash
   git clone https://github.com/Meituan-AutoML/Lenna.git
@@ -26,7 +26,7 @@ With the fast-paced development of multimodal large language models (MLLMs), we 
 
 **2. Prepare Lenna checkpoint**
 
-- Download the [Lenna-7B](https://huggingface.co/mtgv/Lenna-7B) checkpoint from HuggingFace.
+- Download the [Lenna-7B](https://huggingface.co/weifei06/Lenna) checkpoint from HuggingFace.
 
 **4. Inference**
 
@@ -51,7 +51,7 @@ With the fast-paced development of multimodal large language models (MLLMs), we 
 
 ## Updates
 
-- 2023-12-28 Inference code and the [Lenna-7B](https://huggingface.co/mtgv/Lenna-7B) model are released.
+- 2023-12-28 Inference code and the [Lenna-7B](https://huggingface.co/weifei06/Lenna) model are released.
 - 2023-12-05 Note: [Paper](https://arxiv.org/pdf/2312.02433.pdf) is released on arxiv.
 
 ## Cite
