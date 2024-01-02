@@ -1,4 +1,5 @@
 from .grounding_dino import GroundingDINO
+from .grounding_dino_head import LennaGroundingDINOHead
 
 def build_gdino():
     lang_model_name = 'bert-base-uncased'

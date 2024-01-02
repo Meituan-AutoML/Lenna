@@ -13,7 +13,7 @@ With the fast-paced development of multimodal large language models (MLLMs), we 
 
 ## Getting Started
 **1. Installation**
-
+- We utilize A100 GPU for training and inference.
 - Git clone our repository and creating conda environment:
   ```bash
   git clone https://github.com/Meituan-AutoML/Lenna.git
