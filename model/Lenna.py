@@ -105,6 +105,7 @@ class LennaForCausalLM(LlavaLlamaForCausalLM):
                 'inputs': all_dino_inputs,
                 'data_samples': all_dino_data,
             }
+            self.data_preprocessor.to(self.model.device)
             dino_inputs = self.data_preprocessor(dino_target_new)
             pred_embeddings = torch.stack(pred_embeddings).to(this_device)
             pred_text_token_mask = torch.tensor([[True]]).to(this_device)

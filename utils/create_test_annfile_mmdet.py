@@ -34,7 +34,7 @@ def load_as_mmdet(file_name, caption=None):
     text = tuple([caption])
     mmdet_pipline_cfg = [
         dict(type='LoadImageFromFile', backend_args=None),
-        dict(type='FixScaleResize', scale=(800, 1333), keep_ratio=True),
+        dict(type='Resize', scale=(800, 1333), keep_ratio=True),
         dict(type='LoadAnnotations', with_bbox=True),
         dict(
             type='PackDetInputs',
