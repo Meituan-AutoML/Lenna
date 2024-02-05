@@ -57,13 +57,11 @@ With the fast-paced development of multimodal large language models (MLLMs), we 
 ## Cite
 
 ```bibtex
-@misc{wei2023lenna,
-      title={Lenna: Language Enhanced Reasoning Detection Assistant}, 
-      author={Fei Wei and Xinyu Zhang and Ailing Zhang and Bo Zhang and Xiangxiang Chu},
-      year={2023},
-      eprint={2312.02433},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{wei2023lenna,
+  title={Lenna: Language enhanced reasoning detection assistant},
+  author={Wei, Fei and Zhang, Xinyu and Zhang, Ailing and Zhang, Bo and Chu, Xiangxiang},
+  journal={arXiv preprint arXiv:2312.02433},
+  year={2023}
 }
 ```
 
